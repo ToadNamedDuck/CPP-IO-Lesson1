@@ -6,12 +6,11 @@ int main()
     std::cout << "Enter your favorite number between 1 and 100: ";
     std::cin >> favorite_number;
     
-    std::cout << "That's my favorite number, too!" << std::endl;
-    
     if(favorite_number == 69){
         std::cout << "Nice lol";
     }
     else{
+         std::cout << "That's my favorite number, too!" << std::endl;
          std::cout << "No, really! " << favorite_number << " is my favorite number!!";   
     }    
     return 0;
